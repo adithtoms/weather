@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5)url("./images/bsky.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+
+.box{
+ backdrop-filter: blur(21px);
+ -webkit-backdrop-filter: blur(21px);
+ box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+ border: 1px solid rgba(255, 255, 255,0.16);
+ border-radius: 10px;
+ padding: 15px;
+ color: azure;
+ min-height: 600px;
+}
+
+#heading{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: whitesmoke;
+}
+input[type="text"] {
+
+    /* background-color : rgba(255, 255, 255,0);  */
+    background: transparent;
+    border: none;
+    width: 70%;
+    height: 40px;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+    
+  
+  }
+  #btn{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(212, 129, 13);
+    color: aliceblue;
+  }
+  #btn:hover{
+    cursor: pointer;
+    border: 2px solid rgb(212, 129, 13);
+    background-color: rgba(255, 255, 255,0);
+  }
+  .insec{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  #display{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
